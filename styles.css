@@ -1,0 +1,126 @@
+h1{
+  background-image: url('src/assets/h1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-size: contain;
+  text-transform: uppercase;
+}
+h2{
+  text-transform: uppercase;
+  /* background-image: url('src/assets/h1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-size: contain; */
+}
+
+.paralax {
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 0vh;
+  height: 80vh;
+  background-size-Y: 150%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:cover;
+  background-image: url("src/img/rcr1.png");
+  position: relative;
+}
+
+.text {
+  color: white;
+  text-shadow: 0px 5px 10px black;
+  font-size: 2em;
+  font-family: tahoma;
+  position: absolute;
+  top: 50%;
+  line-height: 0px;
+  left: 3em;
+  z-index: 2;
+}
+
+.bg2 {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  z-index: 3;
+  opacity: 0.5;
+}
+
+.bg3 {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  z-index: 5;
+}
+.bg4 {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 40%;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-image: url('src/img/side-banner-1.png');
+  background-size: contain;
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+  
+}
+
+.product-device-2::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-image: url('src/img/side-banner-2.png');
+  background-size: contain;
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+
+/* mobile queries */
+@media screen and (max-width: 468px) {
+  .navbar-brand img{
+    width: 50vw;
+  }
+  .text {
+    display: none;
+  }
+  .paralax {
+    height: 50vh;
+  }
+}

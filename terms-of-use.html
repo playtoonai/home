@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    crossorigin="anonymous">
+  <meta name="facebook-domain-verification" content="fh60ec1zqwf3xuvs2v1gs7owzjp64a" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="shortcut icon" href="src/img/favicon.png" type="image/png">
+  <title>Terms of use - Playtoon AI</title>
+  <style>
+    .section {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-auto-rows: 180px;
+      grid-auto-flow: dense;
+    }
+
+    .playstore {
+      width: 140px
+    }
+
+    @media (max-width:800px) {
+      .section {
+        display: grid;
+        grid-gap: 2px;
+        grid-template-columns: auto;
+        grid-auto-rows: auto;
+        grid-auto-flow: dense;
+      }
+
+      .big {
+        grid-column: span 1;
+        grid-row: span 1;
+      }
+
+      .playstore {
+        width: 75px;
+      }
+    }
+
+    .section>figure {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2em;
+      transition: all 0.5s;
+    }
+
+    .item {
+      transition: all 0.5s;
+    }
+
+    .section:hover figure {
+      opacity: 0.2;
+    }
+
+    .section figure:hover {
+      opacity: 1 !important;
+    }
+
+    .section>figure>img.image1 {
+      width: 100% !important;
+      height: 100% !important;
+      /*object-fit: cover;*/
+    }
+
+    .horizontal {
+      grid-column: span 2;
+    }
+
+    .vertical {
+      grid-row: span 2;
+    }
+
+    .big {
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+
+    /* 
+  * over lay effects on image
+   */
+
+    figure.item {
+      position: relative;
+    }
+
+    figure>img {
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+      border-radius: 10px;
+    }
+
+    .overlay1 {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      color: #fbfbfb;
+      /* transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
+      text-align: center;
+    }
+
+    figure:hover>img {
+      opacity: 1;
+      filter: brightness(0.9);
+      border-radius: 10px;
+    }
+
+    figure:hover>.overlay1 {
+      opacity: 1;
+      width: 100% !important;
+      display: block !important;
+      background-color: rgba(1, 1, 1, 0.5);
+      padding: 5px;
+    }
+  </style>
+</head>
+
+<body class="bg-light">
+
+  <!-- navbar -->
+  <header id="home" data-wow-duration="0.75s" data-wow-delay="0s">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#home"><img src="src/img/white-logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          </ul>
+          <div class="d-flex">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#apps">Apps</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_blank"
+                  href="#"><img width="100vw"
+                    src="src/img/gp.webp" alt="google play"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- nav ends -->
+  <div class="container">
+    <div class="d-flex justify-content-center">
+      <h2> Terms of Use - Playtoon AI Apps </h2>
+    </div>
+    <p>(Updated on 28th Jan 2026 ) </p>
+    <h5 style="font-weight: bold; color: #78727f;">Opening Statement</h5>
+
+    <p>
+      Individuals or entities, hereafter denoted as "You" or "Users," are urged to thoroughly review the
+      Terms of Use, herein referred to as the "Agreement," before accessing or using our Services. By
+      engaging with our Services, You acknowledge full comprehension, acceptance, and commitment to adhere
+      to all the stipulated terms and conditions outlined in this Agreement. The Agreement becomes
+      immediately effective between You and us upon utilization of the Services. In the event of
+      disagreement, whether in part or entirely, You retain the right to terminate our Services at your
+      discretion.
+
+    </p>
+
+    <h5 style="font-weight: bold; color: #78727f;">Essential information at a glance</h5>
+
+    <p>The right of withdrawal, referred to as the right of cancellation in the UK, pertains specifically to
+      European Consumers and is consistently labeled as "the right of withdrawal" in this document. It's
+      important to note that certain clauses within these Terms might apply only to specific User
+      categories. Any limitations on applicability are explicitly stated within the affected clause.
+      Clauses without such specifications apply universally to all Users. This Application employs
+      automatic subscription renewal for Products. Details regarding renewal periods, termination
+      specifics, and termination notice are available in the relevant section of these Terms.
+    </p>
+    <p>
+      Moreover, the usage of this Application and its Service is subject to age restrictions, as detailed
+      in the pertinent section of this document.
+    </p>
+    <h5 style="font-weight: bold; color: #78727f;">Terms of Service</h5>
+    <p>Unless explicitly specified otherwise, the terms outlined in this section generally apply when
+      utilizing this Application. Specific scenarios may warrant the imposition of additional or singular
+      conditions for use or access, which will be distinctly indicated within this Policy.
+      Upon using this Application, You affirm your adherence to the following prerequisites:
+    </p>
+    <p>
+      Users must meet the criteria of being Consumers.
+      <br>
+      You must surpass the age of 13.
+    </p>
+    <h6 style="font-weight: bold; color: #78727f;">Content on this Application</h6>
+    <p>Unless expressly stated or conspicuously identifiable, all content accessible on this Application is
+      either owned by us or provided by our licensors. While we make every effort to ensure compliance
+      with legal regulations and third-party rights in the content displayed on this Application, complete
+      adherence may not always be achievable. In instances where any rights infringement occurs, without
+      compromising Your legal prerogatives, we kindly request that You report related grievances using the
+      contact information provided in this Policy.
+    </p>
+    <p>
+      Rights Pertaining to Content on this Application - All Rights Reserved:
+    </p>
+    <p>
+      We retain all intellectual property rights for such content. Therefore, using such content in any
+      manner beyond what is necessary or implied for the proper utilization of the Service is prohibited.
+      This includes, but is not limited to, actions such as copying, downloading, sharing (beyond
+      specified limits), modifying, translating, publishing, transmitting, selling, sublicensing, editing,
+      transferring/assigning to third parties, or creating derivative works from the content available on
+      this Application, even without your explicit knowledge.
+    </p>
+    <p>
+      Unless explicitly permitted on this Application, downloading, copying, and/or sharing some content
+      from this Application is only authorized for personal, non-commercial use. This is provided that all
+      copyright attributions and other requested attributions by us are accurately implemented. Any
+      applicable statutory limitations or exceptions to copyright remain unaffected.
+
+    </p>
+    <h5 style="font-weight: bold; color: #78727f;">Accessing External Assets</h5>
+    <p>Within this Application, access to external resources offered by third parties is provided. It's
+      important to recognize and agree that we hold no authority over these resources, thus absolving us
+      from responsibility concerning their content and availability. The conditions governing these
+      third-party resources, including any potential content rights grants, are subject to the terms and
+      conditions specified by each individual third party. In cases where such terms are absent, statutory
+      law applies. Specifically, third-party advertisements may be visible on this Application. It's
+      crucial to note that WE DO NOT oversee or regulate the advertisements showcased here. Any
+      interaction initiated by clicking on these advertisements will engage You with the responsible
+      third-party behind the advertisement. Subsequently, any outcomes stemming from interactions with
+      these third parties, such as visiting their websites or utilizing their content, fall outside our
+      responsibility.
+    </p>
+
+    <h5 style="font-weight: bold; color: #78727f;">Permissible Usage</h5>
+    <p>Usage of this Application and its associated Service is strictly confined within their intended
+      purposes as defined by these Terms and relevant legal statutes. Any downloaded Content via our Apps
+      is restricted to Fair Use, encompassing activities like criticism, commentary, news reporting,
+      teaching, scholarship, and research. We place substantial importance on respecting Intellectual
+      Property Rights. While we cannot monitor your use of such content, we urge you to honor Intellectual
+      Property Rights as rigorously as we do. By agreeing, you acknowledge that WE DO NOT bear any
+      responsibility or liability for illegal use of downloaded content; such accountability falls
+      entirely on you. You are wholly responsible for ensuring that your utilization of this Application
+      and/or the Service does not contravene any applicable laws, regulations, or the rights of third
+      parties. Consequently, we retain the right to take suitable actions to safeguard our lawful
+      interests, including denying your access to this Application or the Service, terminating contracts,
+      and reporting any misconduct conducted through this Application or the Service to relevant
+      authorities—such as judicial or administrative bodies—should you engage in or be suspected of
+      engaging in any of the following activities:
+    <ul>
+      <li>Violating laws, regulations, and/or these Terms.</li>
+      <li>Infringing upon any third-party rights.</li>
+      <li>Substantially impeding our legitimate interests.</li>
+      <li>Offending us or any third party.</li>
+
+    </ul>
+    </p>
+    <h4 style="font-weight: bold; color: #78727f;">Sales Agreement</h4>
+    <h5 style="font-weight: bold; color: #78727f;">Purchased Offerings</h5>
+    <p>Certain Products accessible through this Application as part of the Service are offered on a payment
+      basis. The fees, duration, and conditions applicable to the acquisition of such Products are
+      delineated below and in the specified sections of this Application.
+    </p>
+    <h5 style="font-weight: bold; color: #78727f;">Product Summary</h5>
+    <p>Prices, descriptions, or availability of Products are detailed in their respective sections on this
+      Application and are subject to alteration without prior notice. Although Products on this
+      Application are presented with the utmost technical accuracy feasible, their representation
+      (including graphical material, images, colors, sounds, if applicable) is solely for reference and
+      does not guarantee the characteristics of the purchased Product. The specific attributes of the
+      chosen Product will be elucidated throughout the purchasing process.
+    </p>
+    <h5 style="font-weight: bold; color: #78727f;">Purchasing process</h5>
+    <p>Any steps taken from choosing a Product to order submission form part of the purchasing process. The
+      purchasing process includes these steps:
+    </p>
+    <p>
+      You must choose the desired Product and verify their purchase selection.
+      After having reviewed the information displayed in the purchase selection, You may place the order
+      by submitting it.
+      Order submission
+    </p>
+    <p>
+      <b>Upon placing an order, the following conditions are applicable:</b>
+      The submission of an order determines contract conclusion and therefore creates for You the
+      obligation to pay the price, taxes and possible further fees and expenses, as specified on the order
+      page.
+    </p>
+    <p>
+      In case the purchased Product requires active input from You, such as the provision of personal
+      information or data, specifications or special wishes, the order submission creates an obligation
+      for You to cooperate accordingly.
+      Upon submission of the order, You will receive a receipt confirming that the order has been
+      received.
+    </p>
+    <p>
+      <b>Prices</b>
+      You are informed during the purchasing process and before order submission, about any fees, taxes
+      and costs (including, if any, delivery costs) that they will be charged. Prices on this Application
+      are displayed in excluding any applicable fees, taxes and costs.
+
+    </p>
+    <h5 style="font-weight: bold; color: #78727f;">Payment Options</h5>
+    <p>Accepted payment methods are disclosed during the purchasing process. Some payment methods might be
+      subject to additional conditions or fees, which can be found in the dedicated section of this
+      Application. All payments are handled through third-party services. Therefore, this Application
+      doesn't collect payment details like credit card information; it solely receives a notification
+      post-successful payment completion. Should a payment fail or be declined by the service provider, we
+      are not obliged to fulfill the purchase order. Any resulting costs or fees due to failed or refused
+      payments are your responsibility.</p>
+
+    <h5 style="font-weight: bold; color: #78727f;">Retention of Usage Rights</h5>
+    <p>Until the total purchase price is received, you do not acquire any rights to use the purchased
+      Product.</p>
+
+    <h5 style="font-weight: bold; color: #78727f;">Service Performance</h5>
+    <p>The purchased service will be provided within the specified timeframe on this Application or as
+      communicated before submitting the order.</p>
+
+    <h4 style="font-weight: bold; color: #78727f;">Contract Duration</h4>
+    <b>One-Time Purchase</b>
+    <p>Making a one-time purchase offers you the opportunity to acquire a product without the commitment of
+      a recurring subscription. The transaction is complete upon receipt of payment, providing you with
+      immediate access to the product. Unlike subscriptions, there is no need for ongoing payments, giving
+      you the flexibility to make a single, upfront purchase. Enjoy the product without the obligation of
+      regular fees or the risk of service interruptions.</p>
+    <b>Subscriptions</b>
+    <p>Subscriptions enable continuous or regular receipt of a Product over a set period. Paid
+      subscriptions begin upon our receipt of payment. To maintain subscriptions, timely payment of the
+      recurring fee is necessary. Failure to comply may lead to service interruptions.
+    </p>
+    <p>
+      <b>Fixed-Term Subscriptions</b>
+      Paid fixed-term subscriptions start upon our receipt of payment and last for the chosen subscription
+      period. Once expired, access to the Product ends unless you renew by paying the relevant fee.
+      Fixed-term subscriptions cannot be terminated prematurely and expire at the end of the term.
+    </p>
+    <p>
+      <b>Automatic Renewal</b>
+      Subscriptions automatically renew via the chosen payment method unless canceled within the specified
+      termination deadlines in the Terms or this Application. Renewals match the original term.
+    </p>
+    <p>
+      <b>Termination</b>
+      Recurring subscriptions can be terminated at any time by sending a clear notice to us through
+      provided contact details or via controls within this Application.
+    </p>
+    <p>
+      <b>Termination Notice</b>
+      Termination takes effect after the current period if notice is received before renewal.
+    </p>
+    <p>
+      <b>Termination of Open-Ended</b>
+      Subscriptions Open-ended subscriptions can be terminated by providing clear notice. Termination
+      takes effect 7 days after receipt of the termination notice.
+    </p>
+
+    <h5 style="font-weight: bold; color: #78727f;">User Rights</h5>
+    <p><b>Right of Withdrawal</b>
+      Subject to conditions, you may withdraw from the contract within the specified period (usually 14
+      days) without justification. Details about withdrawal conditions are provided in this section.
+    </p>
+    <p>
+      <b>Who Can Exercise the Right of Withdrawal</b>
+      European Consumers generally have the statutory right to withdraw from online contracts within the
+      specified period, except under applicable exceptions. If you don’t meet this criterion, you cannot
+      benefit from this section.
+    </p>
+    <p>
+      <b>Exercising the Right of Withdrawal</b>
+      To withdraw, it's essential to provide a clear statement of your intention. You can use the provided
+      withdrawal form or express your intention in any appropriate way within the withdrawal period. Make
+      sure the withdrawal notice is sent before the deadline expires. In order to exercise your right of
+      withdrawal, you must send an unambiguous statement expressing your intention to withdraw from the
+      contract. You can utilize the model withdrawal form available in the "definitions" section of this
+      Policy. Alternatively, you're free to clearly convey your intention to withdraw through any suitable
+      means. Ensure the withdrawal notice is sent before the withdrawal period lapses to meet the deadline
+      for exercising this right.
+    </p>
+    <p>
+      <b>When does the deadline for withdrawal lapse?</b>
+      For the purchase of a service, the withdrawal period ends 14 days after entering into the contract,
+      unless you have waived the withdrawal right.
+    </p>
+    <p>
+      <b>Consequences of opting out</b>
+      Upon correct withdrawal from a contract, you'll be reimbursed for all payments made, including any
+      covering delivery costs, if applicable. However, additional costs incurred due to selecting a
+      delivery method other than the least expensive standard delivery offered by us will not be
+      reimbursed. This reimbursement will be prompt, no later than 14 days from when we are notified of
+      your decision to withdraw. Unless agreed otherwise, reimbursements will use the same payment method
+      as the initial transaction. You won't bear any costs associated with this reimbursement.
+    </p>
+    <p>
+      <b>Concerning Service Acquisitions,</b>
+      If you exercise the right of withdrawal after requesting service commencement before the withdrawal
+      period ends, you'll owe an amount proportional to the service provided. This payment is calculated
+      based on the agreed fee and the service portion rendered until your withdrawal compared to the full
+      coverage of the contract.
+    </p>
+    <p>
+      <b>Exclusions to the withdrawal entitlement</b>
+      Services have been entirely performed, provided the consumer gave prior express consent, and
+      acknowledged that their right of withdrawal is forfeited once the contract is completed.
+    </p>
+
+    <h5 style="font-weight: bold; color: #78727f;">Responsibility and Compensation</h5>
+    <p>- For EU Users, there are limits to withdrawal rights for services fully performed with prior consent
+      that acknowledges the loss of withdrawal rights upon completion. There's also limited liability for
+      certain damages under applicable law.
+    </p>
+    <p>
+      - Australian Users retain non-excludable rights regarding service performance, while US Users are
+      provided the Service 'as is', disclaiming warranties and limiting liability. Both agree to indemnify
+      the service provider from claims related to use and access, adhering to certain common provisions.
+    </p>
+    <p>
+      <b>Rights to Intellectual Property</b>
+      All intellectual property rights associated with this Application, including copyrights, trademarks,
+      patents, and design rights, belong exclusively to us or our licensors. These rights are protected by
+      relevant laws and international treaties governing intellectual property. The trademarks, trade
+      names, service marks, word marks, illustrations, images, and logos linked to this Application are
+      and will remain the exclusive property of us or our licensors. They are safeguarded by applicable
+      laws and international treaties governing intellectual property.
+    </p>
+    <p>
+      <b>Modifications to these Terms</b>
+      We retain the right to alter or modify these Terms at any time, and we will duly notify you of such
+      changes. These modifications will only impact future interactions between you and us. By continuing
+      to use the Service, you indicate your acceptance of the updated Terms. Should you choose not to
+      adhere to these changes, you must cease using the Service. Failure to accept the revised Terms might
+      allow either party to terminate the Agreement. The relationship preceding your acceptance will be
+      governed by the previous applicable version, which can be obtained from us. If mandated by
+      applicable law, we will specify the effective date of the modified Terms.
+    </p>
+    <p>
+      <b>Contract Handover</b>
+      We retain the right to transfer, assign, novate, or subcontract any or all rights or obligations
+      under these Terms, considering your legitimate interests. Provisions concerning changes to these
+      Terms will be applicable in such cases. You are not permitted to assign or transfer your rights or
+      obligations under these Terms without our written permission.
+    </p>
+    <p>
+      <b>Contact Information</b>
+      Any communications regarding the use of this Application should be directed using the contact
+      information provided in this Policy.
+    </p>
+    <p>
+      <b>Divisibility</b>
+      If any provision of these Terms is considered invalid or unenforceable under applicable law, such
+      invalidity or unenforceability will not affect the validity of the remaining provisions, which will
+      continue to be fully effective.
+    </p>
+    <p>
+      <b>For US Users:</b>
+      If any provision is deemed invalid or unenforceable, it will be interpreted and reformed to the
+      extent necessary to make it valid and consistent with its original intent. These Terms constitute
+      the entire Agreement, superseding all prior communications between the parties regarding the subject
+      matter, and will be enforced to the fullest extent permitted by law.
+    </p>
+    <p>
+      <b>For EU Users:</b>
+      Should any provision be void, invalid, or unenforceable, efforts will be made to mutually agree on
+      valid replacements. Failing this, void or invalid provisions will be substituted by applicable
+      statutory provisions if ,permitted by law.
+
+      The nullity or invalidity of a specific provision will not void the entire Agreement, unless that
+      provision is fundamental or crucial to the Agreement. In such cases, or if the remaining provisions
+      would impose unacceptable hardship on any party, the contract might be voided.
+
+    </p>
+    <p>
+      <b>Jurisdiction</b>
+      These Terms are governed by the law of Singapore, without considering conflict of laws principles.
+    </p>
+    <p>
+      <b>Exception for European Consumers:</b>
+      If you are a European Consumer residing in a country with higher consumer protection standards,
+      those standards take precedence.
+    </p>
+    <p>
+      <b>Jurisdictional Venue</b>
+      Exclusive authority for any dispute arising from or related to these Terms rests with the courts of
+      Singapore.
+    </p>
+    <p>
+      <b>Exception for European Consumers:</b>
+      This exclusion doesn't apply to European Consumers, as well as Consumers from Switzerland, Norway,
+      or Iceland.
+
+<b> PLEASE BE AWARE THAT NEITHER WE NOR GOOGLE DO NOT RETAIN FACE DATA FOR AN INDEFINITE PERIOD OF TIME. FACE DATA IS STORED ONLY FOR 1 HOUR
+FROM THE MOMENT IT IS EXTRACTED.
+IF NECESSARY, THIS PERIOD MIGHT BE LONGER BUT NOT MORE THAN 1 DAY.AFTER THIS PERIOD, ALL FACE DATA IS PERMANENTLY DELETED </b>
+    </p>
+    <p>
+      <b>Resolving Disputes</b>
+      If there are disputes, you're encouraged to reach out to us for an amicable resolution. While your
+      right to pursue legal action remains intact, in case of any concerns regarding this Application or
+      the Service, please contact us using the provided details in this Policy. You can submit a
+      complaint, along with a brief description and relevant order, purchase, or account details, to our
+      specified email address as outlined in the Privacy Policy. We'll address the complaint promptly,
+      within 21 days of receiving it.
+    </p>
+    <p>
+      <b>Online Conflict Resolution for Consumers</b>
+      The European Commission hosts an online platform for alternative dispute resolution concerning
+      online sale and service contracts. European Consumers have access to this platform to resolve
+      disputes arising from online contracts.
+    </p>
+  </div>
+
+<hr class="featurette-divider">
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; <script>document.write(new Date().getFullYear())</script> Playtoon AI&reg; </p>
+  </footer>
+</body>
+
+</html>

@@ -1,2 +1,12 @@
 google.com, pub-8607249541097375, DIRECT, f08c47fec0942fa0
 google.com, pub-4276074242154795, DIRECT, f08c47fec0942fa0
+google.com, pub-2256714742649688, DIRECT, f08c47fec0942fa0
+facebook.com, 3918476741786303, DIRECT, c3e20eee3f780d68
+pangleglobal.com, 5037027, DIRECT
+pubmatic.com, 161490, RESELLER, 5d62403b186f2ace
+vungle.com, 69cfa3827dbb2c94758d434b, DIRECT, c107d686becd2d77
+smartadserver.com, 4194-OB, RESELLER, 060d053dcf45cbf3
+smartadserver.com, 4194, RESELLER, 060d053dcf45cbf3
+sharethrough.com, 4194-OB, RESELLER, 060d053dcf45cbf3
+sharethrough.com, 4194, RESELLER, 060d053dcf45cbf3
+pubmatic.com, 159856, DIRECT, 5d62403b186f2ace
